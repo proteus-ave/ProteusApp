@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC9A01B9189A4F5B005C544A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9A01B8189A4F5B005C544A /* Foundation.framework */; };
+		BC9A01BB189A4F5B005C544A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9A01BA189A4F5B005C544A /* CoreGraphics.framework */; };
+		BC9A01BD189A4F5B005C544A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9A01BC189A4F5B005C544A /* UIKit.framework */; };
+		BC9A01C3189A4F5B005C544A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC9A01C1189A4F5B005C544A /* InfoPlist.strings */; };
+		BC9A01C5189A4F5B005C544A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9A01C4189A4F5B005C544A /* main.m */; };
+		BC9A01C9189A4F5B005C544A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9A01C8189A4F5B005C544A /* AppDelegate.m */; };
+		BC9A01D2189A4F5B005C544A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9A01D1189A4F5B005C544A /* ViewController.m */; };
+		BC9A01D4189A4F5B005C544A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9A01D3189A4F5B005C544A /* Images.xcassets */; };
+		BC9A01DB189A4F5C005C544A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9A01DA189A4F5C005C544A /* XCTest.framework */; };
+		BC9A01DC189A4F5C005C544A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9A01B8189A4F5B005C544A /* Foundation.framework */; };
+		BC9A01DD189A4F5C005C544A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9A01BC189A4F5B005C544A /* UIKit.framework */; };
+		BC9A01E5189A4F5C005C544A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC9A01E3189A4F5C005C544A /* InfoPlist.strings */; };
+		BC9A01E7189A4F5C005C544A /* ProteusAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9A01E6189A4F5C005C544A /* ProteusAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC9A01DE189A4F5C005C544A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC9A01AD189A4F5B005C544A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9A01B4189A4F5B005C544A;
+			remoteInfo = ProteusApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC9A01B5189A4F5B005C544A /* ProteusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProteusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9A01B8189A4F5B005C544A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC9A01BA189A4F5B005C544A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC9A01BC189A4F5B005C544A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC9A01C0189A4F5B005C544A /* ProteusApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProteusApp-Info.plist"; sourceTree = "<group>"; };
+		BC9A01C2189A4F5B005C544A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC9A01C4189A4F5B005C544A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC9A01C6189A4F5B005C544A /* ProteusApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProteusApp-Prefix.pch"; sourceTree = "<group>"; };
+		BC9A01C7189A4F5B005C544A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC9A01C8189A4F5B005C544A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC9A01D0189A4F5B005C544A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC9A01D1189A4F5B005C544A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC9A01D3189A4F5B005C544A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC9A01D9189A4F5B005C544A /* ProteusAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProteusAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9A01DA189A4F5C005C544A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC9A01E2189A4F5C005C544A /* ProteusAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProteusAppTests-Info.plist"; sourceTree = "<group>"; };
+		BC9A01E4189A4F5C005C544A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC9A01E6189A4F5C005C544A /* ProteusAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProteusAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC9A01B2189A4F5B005C544A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9A01BB189A4F5B005C544A /* CoreGraphics.framework in Frameworks */,
+				BC9A01BD189A4F5B005C544A /* UIKit.framework in Frameworks */,
+				BC9A01B9189A4F5B005C544A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9A01D6189A4F5B005C544A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9A01DB189A4F5C005C544A /* XCTest.framework in Frameworks */,
+				BC9A01DD189A4F5C005C544A /* UIKit.framework in Frameworks */,
+				BC9A01DC189A4F5C005C544A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC9A01AC189A4F5B005C544A = {
+			isa = PBXGroup;
+			children = (
+				BC9A01BE189A4F5B005C544A /* ProteusApp */,
+				BC9A01E0189A4F5C005C544A /* ProteusAppTests */,
+				BC9A01B7189A4F5B005C544A /* Frameworks */,
+				BC9A01B6189A4F5B005C544A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC9A01B6189A4F5B005C544A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC9A01B5189A4F5B005C544A /* ProteusApp.app */,
+				BC9A01D9189A4F5B005C544A /* ProteusAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC9A01B7189A4F5B005C544A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC9A01B8189A4F5B005C544A /* Foundation.framework */,
+				BC9A01BA189A4F5B005C544A /* CoreGraphics.framework */,
+				BC9A01BC189A4F5B005C544A /* UIKit.framework */,
+				BC9A01DA189A4F5C005C544A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC9A01BE189A4F5B005C544A /* ProteusApp */ = {
+			isa = PBXGroup;
+			children = (
+				BC9A01C7189A4F5B005C544A /* AppDelegate.h */,
+				BC9A01C8189A4F5B005C544A /* AppDelegate.m */,
+				BC9A01D0189A4F5B005C544A /* ViewController.h */,
+				BC9A01D1189A4F5B005C544A /* ViewController.m */,
+				BC9A01D3189A4F5B005C544A /* Images.xcassets */,
+				BC9A01BF189A4F5B005C544A /* Supporting Files */,
+			);
+			path = ProteusApp;
+			sourceTree = "<group>";
+		};
+		BC9A01BF189A4F5B005C544A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC9A01C0189A4F5B005C544A /* ProteusApp-Info.plist */,
+				BC9A01C1189A4F5B005C544A /* InfoPlist.strings */,
+				BC9A01C4189A4F5B005C544A /* main.m */,
+				BC9A01C6189A4F5B005C544A /* ProteusApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC9A01E0189A4F5C005C544A /* ProteusAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC9A01E6189A4F5C005C544A /* ProteusAppTests.m */,
+				BC9A01E1189A4F5C005C544A /* Supporting Files */,
+			);
+			path = ProteusAppTests;
+			sourceTree = "<group>";
+		};
+		BC9A01E1189A4F5C005C544A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC9A01E2189A4F5C005C544A /* ProteusAppTests-Info.plist */,
+				BC9A01E3189A4F5C005C544A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC9A01B4189A4F5B005C544A /* ProteusApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9A01EA189A4F5C005C544A /* Build configuration list for PBXNativeTarget "ProteusApp" */;
+			buildPhases = (
+				BC9A01B1189A4F5B005C544A /* Sources */,
+				BC9A01B2189A4F5B005C544A /* Frameworks */,
+				BC9A01B3189A4F5B005C544A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProteusApp;
+			productName = ProteusApp;
+			productReference = BC9A01B5189A4F5B005C544A /* ProteusApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC9A01D8189A4F5B005C544A /* ProteusAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9A01ED189A4F5C005C544A /* Build configuration list for PBXNativeTarget "ProteusAppTests" */;
+			buildPhases = (
+				BC9A01D5189A4F5B005C544A /* Sources */,
+				BC9A01D6189A4F5B005C544A /* Frameworks */,
+				BC9A01D7189A4F5B005C544A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC9A01DF189A4F5C005C544A /* PBXTargetDependency */,
+			);
+			name = ProteusAppTests;
+			productName = ProteusAppTests;
+			productReference = BC9A01D9189A4F5B005C544A /* ProteusAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC9A01AD189A4F5B005C544A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Philips;
+				TargetAttributes = {
+					BC9A01D8189A4F5B005C544A = {
+						TestTargetID = BC9A01B4189A4F5B005C544A;
+					};
+				};
+			};
+			buildConfigurationList = BC9A01B0189A4F5B005C544A /* Build configuration list for PBXProject "ProteusApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC9A01AC189A4F5B005C544A;
+			productRefGroup = BC9A01B6189A4F5B005C544A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC9A01B4189A4F5B005C544A /* ProteusApp */,
+				BC9A01D8189A4F5B005C544A /* ProteusAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC9A01B3189A4F5B005C544A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9A01D4189A4F5B005C544A /* Images.xcassets in Resources */,
+				BC9A01C3189A4F5B005C544A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9A01D7189A4F5B005C544A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9A01E5189A4F5C005C544A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC9A01B1189A4F5B005C544A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9A01D2189A4F5B005C544A /* ViewController.m in Sources */,
+				BC9A01C9189A4F5B005C544A /* AppDelegate.m in Sources */,
+				BC9A01C5189A4F5B005C544A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9A01D5189A4F5B005C544A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9A01E7189A4F5C005C544A /* ProteusAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC9A01DF189A4F5C005C544A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC9A01B4189A4F5B005C544A /* ProteusApp */;
+			targetProxy = BC9A01DE189A4F5C005C544A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC9A01C1189A4F5B005C544A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9A01C2189A4F5B005C544A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC9A01E3189A4F5C005C544A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9A01E4189A4F5C005C544A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC9A01E8189A4F5C005C544A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC9A01E9189A4F5C005C544A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC9A01EB189A4F5C005C544A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProteusApp/ProteusApp-Prefix.pch";
+				INFOPLIST_FILE = "ProteusApp/ProteusApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC9A01EC189A4F5C005C544A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProteusApp/ProteusApp-Prefix.pch";
+				INFOPLIST_FILE = "ProteusApp/ProteusApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC9A01EE189A4F5C005C544A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProteusApp.app/ProteusApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProteusApp/ProteusApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ProteusAppTests/ProteusAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BC9A01EF189A4F5C005C544A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProteusApp.app/ProteusApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProteusApp/ProteusApp-Prefix.pch";
+				INFOPLIST_FILE = "ProteusAppTests/ProteusAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC9A01B0189A4F5B005C544A /* Build configuration list for PBXProject "ProteusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9A01E8189A4F5C005C544A /* Debug */,
+				BC9A01E9189A4F5C005C544A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC9A01EA189A4F5C005C544A /* Build configuration list for PBXNativeTarget "ProteusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9A01EB189A4F5C005C544A /* Debug */,
+				BC9A01EC189A4F5C005C544A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC9A01ED189A4F5C005C544A /* Build configuration list for PBXNativeTarget "ProteusAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9A01EE189A4F5C005C544A /* Debug */,
+				BC9A01EF189A4F5C005C544A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC9A01AD189A4F5B005C544A /* Project object */;
+}
